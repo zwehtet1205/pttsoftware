@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>PTT Software Co.,Ltd</title>
+
+	<!-- for boostrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- for icon -->
+	<link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"
+    />
+
+    <!-- for fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+
+		* {
+                box-sizing: border-box;
+            }
+
+        body {
+            margin: 0;
+            padding: 0;
+         }
+
+        .banners {
+            height: 100vh;
+            background: linear-gradient(
+            20deg,
+            steelblue 30%,
+            skyblue 0% 100%
+             );
+
+            background-size: 5%;
+
+            transition: all 2s;
+        }
+
+        .banners:hover {
+            background-size: 5.5%;
+            background-position: center;
+        }
+
+		.cardhover:hover{
+			box-shadow: -7px 5px 5px rgba(0, 0, 0, 0.3);
+		}
+
+		.maps{
+			width: 100%;
+			height: 40vh;
+		}
+		
+	</style>
+
+
+
+
+</head>
+<body>
+
+	<!-- start Header section -->
+	<header>
+		<!-- start navbar -->
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a href="#" class="navbar-brand mx-3" >
+				<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" width="50" alt="sitelogo" />
+				<span class="ms-2 fw-bold">PTT Software Co.,Ltd</span>
+			</a>
+
+			<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+			<div id="nav" class="navbar-collapse collapse justify-content-between">
+
+				<ul class="navbar-nav px-3">
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Clients</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">About</a></li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link text-uppercase fw-bold dropdown-toggle" data-bs-toggle="dropdown" >Software</a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#" class="dropdown-item">Android App</a></li>
+							<li><a href="#" class="dropdown-item">IOS App</a></li>
+							<li><a href="#" class="dropdown-item">Linux App</a></li>
+							<li><a href="#" class="dropdown-item">Windows App</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Pricing</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Contact</a></li>
+					
+				</ul>
+
+				<div class="px-3">
+					<a href="#" class="btn btn-outline-light btn-sm rounded-0">Sign-up</a>
+				</div>
+			</div>
+
+		</nav>
+		<!-- End navbar -->
+
+		<!-- Start banner -->
+		<div class="container-fluid ">
+
+			<div class="row justify-content-center align-items-center banners">
+				<div class="col-md-10 text-center">
+
+					<h1><span class="text-primary text-uppercase">ptt</span> <span class="text-capitalize">software development company</span></h1>
+
+					<h2 class="fst-italic fw-light" >We help companies to digialize their business</h2>
+
+					<p class="text-secondary">Properly set processes. Transparent cooperation. Predictable delivery.</p>
+
+					<a href="#" class="btn btn-warning bg-lg rounded-0" data-bs-toggle="modal" data-bs-target="#loginmodal">Get In Touch</a>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- end banner -->
+
+	</header>
+	<!-- End Header Section -->
+
+
+	<!-- Start Our Client Section -->
+	<section class="bg-light p-5"> 
+		<div class="container-fluid">
+
+			<!-- Start Title -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Our Clients</h2>
+				<p class="text-muted lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- End Title -->
+
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Toyota</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Mazda</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info cardhover">
+						<div class="card-body">
+							<h5 class="card-title">KIA</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry..</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Suzuki</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Samsung</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communicatiion Techonoloy</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Mi</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communicatiion Techonoloy</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Sony</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communicatiion Techonoloy</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning cardhover">
+						<div class="card-body">
+							<h5 class="card-title">Oppo</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communicatiion Techonoloy</h6>
+							<p>Lorem Ipsum is simply dummy text printing and typesetting industry.</p>
+							<a href="#" class="card-link">Website</a>
+							<a href="#" class="card-link">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div> 
+			
+		</div>
+
+		
+		
+	</section>
+	<!-- End Our Client Section -->
+
+	<section >
+
+		<div class="container-fluid">
+
+			<!-- Start Title -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Software</h2>
+				<p class="text-muted lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- End Title -->
+
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 ">
+					<img src="https://imgeng.jagran.com/images/2023/jun/Android%2014%20(1)1686146518996.jpg " class="img-thumbnail" alt="android" />
+					<h3 class="text-warning my-3">Andriod Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text printing and typesetting industry.
+					</p>
+					
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 ">
+					<img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" class="img-thumbnail" alt="ios" />
+					<h3 class="text-warning my-3">IOS Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text printing and typesetting industry.
+					</p>
+					
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 ">
+					<img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" class="img-thumbnail" alt="linux" />
+					<h3 class="text-warning my-3">Linux Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text printing and typesetting industry.
+					</p>
+					
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 ">
+					<img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg" class="img-thumbnail" alt="windows" />
+					<h3 class="text-warning my-3">Windows Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text printing and typesetting industry.
+					</p>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<!-- Start Team section -->
+	<section class="bg-secondary p-5">
+
+		<div class="container-fluid">
+
+			<!-- Start Title -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Team</h2>
+				
+			</div>
+			<!-- End Title -->
+
+			<div class="row">
+				
+				<div class="col-lg-4 col-sm-10 mb-3">
+
+					<div class="card">
+
+						<div class="card-body">
+
+							<img src="https://schoolsweek.co.uk/wp-content/uploads/2023/03/AdobeStock_433003729-1000x618.jpeg" class="img-thumbnail" style="height:250px;" />
+
+							<h3 class="card-title">Ms. Khin Myat Noe</h3>
+							<p class="card-subtitle lead">Operation Manager</p>
+							
+						</div>
+
+						<div class="card-footer d-flex justify-content-end">
+
+							<a href="#" target="_blank"> <i class="fab fa-facebook text-primary fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-twitter text-info fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-youtube text-danger fa-2x"></i></a>
+							
+						</div>
+
+
+					</div>
+					
+				</div>
+
+				<div class="col-lg-4 col-sm-10 mb-3">
+
+					<div class="card">
+
+						<div class="card-body">
+
+							<img src="https://www.springboard.com/blog/wp-content/uploads/2023/09/what-exactly-does-a-programmer-do.jpeg" class="img-thumbnail" style="height:250px;" />
+
+							<h3 class="card-title">Ms.Htet Paing</h3>
+							<p class="card-subtitle lead">Project Manager</p>
+							
+						</div>
+
+						<div class="card-footer d-flex justify-content-end">
+
+							<a href="#" target="_blank"> <i class="fab fa-facebook text-primary fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-twitter text-info fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-youtube text-danger fa-2x"></i></a>
+							
+						</div>
+
+
+					</div>
+					
+				</div>
+
+				<div class="col-lg-4 col-sm-10 mb-3">
+
+					<div class="card">
+
+						<div class="card-body">
+
+							<img src="https://securityintelligence.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/Web-Application-Security-Best-Practices--630x330.jpeg.webp" class="img-thumbnail" style="height:250px;"/>
+
+							<h3 class="card-title">Ms.Pyae Phyo Paing</h3>
+							<p class="card-subtitle lead">Founder And CEO</p>
+							
+						</div>
+
+						<div class="card-footer d-flex justify-content-end">
+
+							<a href="#" target="_blank"> <i class="fab fa-facebook text-primary fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-twitter text-info fa-2x"></i></a>
+
+							<a href="#" target="_blank"> <i class="fab fa-youtube text-danger fa-2x"></i></a>
+							
+						</div>
+
+
+					</div>
+					
+				</div>
+
+			</div>
+			
+		</div>
+
+		
+	</section>
+	<!-- End Team section -->
+
+	<section class="p-5">
+
+		<div class="container-fluid">
+
+			<!-- Start Title -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Public Interest</h2>
+				<p class="text-light lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- End Title -->
+
+
+			<div class="row justify-content-center">
+
+					<div class="col-md-10">
+
+							<h3>Ebook</h3>
+							<div class="progress mb-3">
+
+								<div class="progress-bar progress-bar-striped bg-primary " style="width:25%;" aria-valuenow = "25" aria-valuemin= "0" aria-valuemax="100">25%</div>
+								
+							</div>
+
+							<h3>Andriod Application</h3>
+							<div class="progress mb-3">
+
+								<div class="progress-bar progress-bar-striped bg-secondary " style="width:25%;" aria-valuenow = "25" aria-valuemin= "0" aria-valuemax="100">25%</div>
+								
+							</div>
+
+							<h3>IOS Application</h3>
+							<div class="progress mb-3">
+
+								<div class="progress-bar progress-bar-striped bg-success " style="width:15%;" aria-valuenow = "15" aria-valuemin= "0" aria-valuemax="100">15%</div>
+								
+							</div>
+
+							<h3>Linux Application</h3>
+							<div class="progress mb-3">
+
+								<div class="progress-bar progress-bar-striped bg-danger " style="width:5%;" aria-valuenow = "5" aria-valuemin= "0" aria-valuemax="100">5%</div>
+								
+							</div>
+
+							<h3>Windows Application</h3>
+							<div class="progress mb-3">
+
+								<div class="progress-bar progress-bar-striped bg-primary " style="width:30%;" aria-valuenow = "30" aria-valuemin= "0" aria-valuemax="100">30%</div>
+								
+							</div>
+
+					</div>
+
+			</div>
+			
+
+
+		</div>
+		
+	</section>
+
+	<section class="bg-secondary p-5">
+
+		
+		<div class="container-fluid">
+
+			<!-- Start Title -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Pricing</h2>
+				<p class="text-light lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- End Title -->
+
+			<div class="row text-center">
+
+				<div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+					<div class="card">
+						<div class="card-body">
+
+							<h5>BLOG SITE/ FREE</h5>
+							<h6>$0/month</h6>
+
+							<hr>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Accessr</li>
+								<li class="list-group-item">Dedicate Phone support</li>
+								<li class="list-group-item">Free subdomain</li>
+								<li class="list-group-item">Monthly Status support</li>
+							</ul>	
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="#" class="btn btn-warning text-uppercase text-light">Checkout</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="col-md-4 col-sm-10  mx-auto mb-3">
+
+					<div class="card">
+						<div class="card-body">
+
+							<h5>BLOG SITE/ FREE</h5>
+							<h6>$6/month</h6>
+
+							<hr>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Accessr</li>
+								<li class="list-group-item">Dedicate Phone support</li>
+								<li class="list-group-item">Free subdomain</li>
+								<li class="list-group-item">Monthly Status support</li>
+							</ul>	
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="#" class="btn btn-warning text-uppercase text-light">Checkout</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="col-md-4 col-sm-10  mx-auto mb-3">
+
+					<div class="card">
+						<div class="card-body">
+
+							<h5>BLOG SITE/ FREE</h5>
+							<h6>$6/month</h6>
+
+							<hr>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Accessr</li>
+								<li class="list-group-item">Dedicate Phone support</li>
+								<li class="list-group-item">Free subdomain</li>
+								<li class="list-group-item">Monthly Status support</li>
+							</ul>	
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="#" class="btn btn-warning text-uppercase text-light">Checkout</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+			
+		</div>
+
+	</section>
+
+	<section class="p-5">
+
+		<div class="container-fluid">
+
+			<div class="col-md-12 text-center">
+
+				<h2 class="text-warning display-4">Contact</h2>
+		
+			</div>
+			
+		</div>
+
+		<div class="row">
+			
+			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+				
+				<div class="card">
+					
+					<div class="card-header">
+
+						<h5 class="card-title">Office Location</h5>
+
+
+						
+
+					</div>
+
+					<div class="card-body">
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.8018368300473!2d96.0926417!3d21.9421683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d689c4f2a49%3A0x7dc5ef273e2c02be!2z4YCZ4YCE4YC64YC54YCC4YCc4YCsIOGAmeGAlOGAueGAkOGAnOGAseGAuA!5e0!3m2!1smy!2smm!4v1709821727148!5m2!1smy!2smm" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
+
+					</div>
+
+					<div class="card-footer">
+
+						<p>Phone : 09987654321</p>
+						<p>Email : info@ptt.com</p>
+						<p>Address : N0.123 , Aung San St,Mandalay Myanmar.</p>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+				
+				<div class="text-secondary text-center">
+					<h3>Got Questions ? </h3>
+					<p>Stay Connected</p>
+				</div>
+
+				<form action="" method="" >
+
+					<div class="col-md-12 form-group mb-3">
+
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" class="form-control form-control-sm rounded-0" placeholder="Enter your name" />
+						
+					</div>
+
+					<div class="col-md-12 form-group mb-3">
+
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter your email" />
+						
+					</div>
+
+					<div class="col-md-12 form-group mb-3">
+
+						<label for="message">Message</label>
+						<textarea name="message" id="message" class="form-control form-control-sm rounded-0" rows="3" ></textarea>
+						
+					</div>
+
+					<div class="d-grid">
+						
+						<button type="button" class="btn btn-warning rounded-0">Submit</button>
+
+					</div>
+					
+				</form>
+
+			</div>
+
+		</div>
+		
+	</section>
+
+	<!-- Start Footer -->
+
+	<footer class="bg-dark py-3">
+
+		<div class="elfsight-app-5f82c684-57d2-4c2a-95c1-e1f4f98ded86" data-elfsight-app-lazy></div>
+
+		<div class="container-fluid">
+
+			<div class="col-12 text-center">
+
+				<p class="text-light">&copy; Copyright <span id="autoyear"></span> - Make by PTT Co.,Ltd. </p>
+				
+			</div>
+
+
+			
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+
+
+<!-- Start modal area -->
+
+<!-- modal size 
+
+	(i)standard size 
+	modal-xl
+	modal-lg
+	modal-md (default)
+	modal-sm
+
+	(ii)Full size
+	modal-fullscreen
+	modal-fullscreen-sm-down
+	modal-fullscreen-md-down
+
+	
+	-->
+
+
+
+
+	<!-- Start Get In Touch Modal -->
+	<div id="loginmodal" class="modal">
+
+		<div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+			
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5 class="modal-title">Login Here</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+
+				</div>
+
+				<div class="modal-body">
+
+					<form action="" method="">
+
+						<div class="form-group mb-3">
+
+							<label for="eamil">Email</label>
+							<input type="email" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter your email" />
+							
+						</div>
+
+						<div class="form-group mb-3">
+
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" class="form-control form-control-sm rounded-0" placeholder="Enter your password" />
+							
+						</div>
+
+						<div class="d-flex justify-content-end">
+
+							<button type="reset" class="btn btn-secondary btn-sm" class="btn-close" data-bs-dismiss="modal">Cancel</button>
+
+							<button type="submit" class="btn btn-primary btn-sm ms-3">Login</button>
+							
+						</div>
+						
+					</form>
+					
+				</div>
+
+				<div class="modal-footer">
+
+					<p>Not yet register! , <a href="#">Sing up</a></p>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+
+			
+
+			
+		
+	</div>
+	<!-- End Get In Touch Modal -->
+
+
+
+<!-- End modal area -->
+
+
+
+
+
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">//boostrap</script>
+
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript">//jQuery</script>
+
+	<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+	<script type="text/javascript">
+
+		const autoyear = document.getElementById('autoyear');
+
+		const getyear = new Date().getUTCFullYear();
+
+		autoyear.innerHTML = getyear;
+
+		$(document).ready(function(){
+
+			
+
+		});
+
+	</script>
+
+
+</body>
+</html>
+
+
+<!-- 11PT -->
